@@ -1,8 +1,22 @@
-// Message de bienvenue dans la console
-console.log("Bienvenue au Festival Zenitude 2026");
-
-// Fonction pour gérer la soumission du formulaire de contact
-document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Empêche le rechargement de la page
-    alert("Votre message a été envoyé !"); // Alerte de confirmation
-});
+{
+  "name": "Zenitud Fest 2026",
+  "short_name": "Zenitud",
+  "description": "Festival zen et festif à Nézignan-l'Évêque",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2D1B69",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
