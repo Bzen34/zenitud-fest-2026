@@ -1,40 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zenitud Fest 2026 - Gaïa</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Zenitude 2026</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav id="navbar">
-    <div class="nav-container">
-      <div class="logo">
-        <img src="assets/image-zenitudfest.png" alt="Zenitud Fest Logo" class="logo-img">
-        Zenitud Fest
-      </div>
-      <ul class="nav-links">
-        <li><a href="#home">Accueil</a></li>
-        <li><a href="#philosophy">Philosophie</a></li>
-        <li><a href="#theme">Thème 2026</a></li>
-        <li><a href="#participants">Participants</a></li>
-        <li><a href="#join">Rejoindre</a></li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <img src="assets/image-zenitudfest.png" alt="Zenitud Fest 2026 - Gaïa" class="hero-logo">
-      <h1>Zenitud Fest 2026</h1>
-      <p class="subtitle">Un voyage enchanté au cœur de Gaïa</p>
-      <p class="date-location">6-7 Juin 2026 • Occitanie</p>
-      <a href="#join" class="cta-button">✨ Rejoindre l'Aventure ✨</a>
-    </div>
-  </section>
-  <!-- Philosophy Section, Theme, Participants, Join, and Footer sections identiques à la structure fournie -->
-  <!-- ... (reprends ton contenu HTML/statique ici) ... -->
-  <script src="script.js"></script>
+    <header>
+        <h1>Festival Zenitude 2026</h1>
+        <p>Thème: GAÏA</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#events">Événements</a></li>
+            <li><a href="#map">Carte</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#apply">Candidature</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <section id="events">
+        <h2>Calendrier des événements</h2>
+        <ul>
+            <li>Atelier de méditation - 10h00</li>
+            <li>Conférence sur le bien-être - 14h00</li>
+            <li>Concert de musique relaxante - 18h00</li>
+        </ul>
+    </section>
+
+    <section id="map">
+        <h2>Carte de l'événement</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Suivez-nous sur :</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">YouTube</a></li>
+        </ul>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <section id="apply">
+        <h2>Candidature</h2>
+        <a href="#">Formulaire d'inscription</a>
+    </section>
+
+    <section id="faq">
+        <h2>FAQ</h2>
+        <p>Questions fréquentes sur l'événement.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Festival Zenitude</p>
+    </footer>
+   
+    <script src="script.js"></script>
 </body>
 </html>
