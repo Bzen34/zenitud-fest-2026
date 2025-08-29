@@ -4,35 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zenitud Fest 2026</title>
-
-  <!-- PWA -->
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#2D1B69">
-
-  <!-- Icônes -->
-  <link rel="icon" sizes="192x192" href="icon-192.png">
-  <link rel="apple-touch-icon" href="icon-192.png">
-
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #2D1B69;
-      color: white;
-      text-align: center;
-      padding: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="sw-register.js" defer></script>
 </head>
 <body>
   <h1>Bienvenue au Zenitud Fest 2026</h1>
   <p>Prépare-toi pour une expérience zen et festive 🌿🎶</p>
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./sw.js')
-        .then(() => console.log('SW enregistré'))
-        .catch((err) => console.log('Échec enregistrement SW', err));
-    }
-  </script>
+  <img src="images/zen-banner.jpg" alt="Bannière Zen" class="banner">
+
+  <h2>Programme</h2>
+  <ul>
+    <li>10h00 – Méditation guidée</li>
+    <li>12h00 – Brunch végétal</li>
+    <li>15h00 – Atelier de yoga</li>
+    <li>18h00 – Concert acoustique</li>
+  </ul>
+
+  <audio controls autoplay loop>
+    <source src="audio/zen-music.mp3" type="audio/mp3">
+    Ton navigateur ne supporte pas l’audio.
+  </audio>
 </body>
 </html>
