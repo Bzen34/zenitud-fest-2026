@@ -1,0 +1,54 @@
+{
+  "document": {
+    "title": "Zenitud Fest 2026",
+    "size": "A5",
+    "pages": [
+      {
+        "name": "Page 1 – Couverture",
+        "elements": [
+          { "type": "text", "content": "ZENITUD FEST 2026", "style": "title" },
+          { "type": "text", "content": "Festival du Bien-être et de la Sérénité", "style": "subtitle" },
+          { "type": "text", "content": "7 & 8 juin 2026 – Les Peupliers, Bessan", "style": "body" },
+          { "type": "image", "src": "nature_peupliers.jpg", "style": "background" },
+          { "type": "logo", "src": "bzen_logo.png" }
+        ]
+      },
+      {
+        "name": "Page 2 – Édito",
+        "elements": [
+          { "type": "text", "content": "Bienvenue au Zenitud Fest 2026 🌿", "style": "title" },
+          { "type": "text", "content": "Nous sommes heureux de vous accueillir dans ce lieu magique...", "style": "body" },
+          { "type": "text", "content": "Le thème 2026, « Au Fil de l’Être », est une invitation à suivre le fil d’or de votre chemin intérieur.", "style": "quote" }
+        ]
+      },
+      {
+        "name": "Page 3 – Sommaire",
+        "elements": [
+          { "type": "list", "items": [
+            "Programme général",
+            "Plans",
+            "Liste des exposants",
+            "Conférences & ateliers",
+            "Infos pratiques",
+            "Partenaires"
+          ]}
+        ]
+      }
+      // ... (pages 4 à 12 à compléter selon la structure)
+    ],
+    "styles": {
+      "colors": {
+        "primary": "#9EB69D",
+        "secondary": "#F5F1E9",
+        "accent": "#B5CFE6",
+        "highlight": "#E2C275",
+        "neutral": "#7D6354"
+      },
+      "fonts": {
+        "title": "Playlist Script",
+        "subtitle": "Raleway",
+        "body": "Open Sans"
+      }
+    }
+  }
+}
